@@ -2,6 +2,9 @@ import './App.css';
 import Header from './components/Header.jsx';
 import Button from './components/Button.jsx';
 const portada = '/imagen.png'; 
+import iconoreact from './assets/tech/React-Dark.svg';
+import iconojs from './assets/tech/JavaScript.svg';
+import iconocss from './assets/tech/CSS.svg';
 
 
 function App() {
@@ -23,22 +26,26 @@ function App() {
 
           <aside className='image'>
             <img src={portada} alt="Imagen de una computadora de la que salen figuras geométricas de un color cobre brillante" />
-            {/* Tal vez después se pueda hacer una función de girar  */}
+            {/* TODO: Tal vez después se pueda hacer una función de girar  */}
           </aside>
 
         </div>
 
-        <section className='tecnologias'>
+        <section className='tecnologias'> 
+          
+          {/* TODO: Después se puede agregar animación */}
 
-          <h2>Tecnologías que domino</h2>
+          <h2 className='tecnologias__titulo'>Tecnologías que domino</h2> 
+
+          <article className='tecnologias__article'>
+            <img className='tecnologias__icono' src={iconoreact} alt="icono de react" />
+            <img className='tecnologias__icono' src={iconojs} alt="icono de JS" />
+            <img className='tecnologias__icono' src={iconocss} alt="icono de CSS" />
+
+          </article>
 
         </section>
-      
-
-
-       
-
-        
+    
       </main>
       
     </>
