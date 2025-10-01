@@ -7,11 +7,21 @@
   font-family:"Montserrat", sans-serif;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #03071E;
+  background-color: #000000;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Variables del portafolio */
+
+  
+  --primary-color: #D22C5F;
+  --secondary-color: #D66C83;
+  --tertiary-color: #C86586;
+
+
+
 }
 
 a {
