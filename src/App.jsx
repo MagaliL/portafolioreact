@@ -5,6 +5,7 @@ const portada = '/imagen.png';
 import iconoreact from './assets/tech/React-Dark.svg';
 import iconojs from './assets/tech/JavaScript.svg';
 import iconocss from './assets/tech/CSS.svg';
+import iconohtml from './assets/tech/HTML.svg';
 
 
 function App() {
@@ -32,16 +33,16 @@ function App() {
         </div>
 
         <section className='tecnologias'> 
-          
           {/* TODO: Después se puede agregar animación */}
-
           <h2 className='tecnologias__titulo'>Tecnologías que domino</h2> 
 
-          <article className='tecnologias__article'>
-            <img className='tecnologias__icono' src={iconoreact} alt="icono de react" />
-            <img className='tecnologias__icono' src={iconojs} alt="icono de JS" />
-            <img className='tecnologias__icono' src={iconocss} alt="icono de CSS" />
-
+           {/* Aquí van las imágenes de los íconos de las tecnologías */}
+           {/* TODO SEGUIR METIENDO ÍCONOS DE TECNOLOGÍAS */}
+            <article className='tecnologias__article'>
+              <img className='tecnologias__icono' src={iconoreact} alt="icono de react" />
+              <img className='tecnologias__icono' src={iconojs} alt="icono de JS" />
+              <img className='tecnologias__icono' src={iconocss} alt="icono de CSS" />
+              <img className='tecnologias__icono' src={iconohtml} alt="icono de HTML" />
           </article>
 
         </section>
