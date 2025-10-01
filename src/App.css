@@ -43,3 +43,34 @@
 .read-the-docs {
   color: #888;
 }
+
+.frente{
+  display: flex;
+  justify-content: space-between;
+  gap: 8rem;
+  
+}
+
+.saludo{
+  padding: 2rem 0 3rem 4rem;
+}
+
+.titulo{
+  padding: 0 0 0 0;
+  margin-bottom: 0rem;
+}
+.subtitulo{
+  padding: 0 0 0 2rem;
+  color: #FAA307;
+}
+
+.image{
+  display: flex;
+  padding: 0 2rem 0 0;
+  
+}
+img{
+height: 25rem;
+width: 25rem;
+border-radius: 2%;
+}
