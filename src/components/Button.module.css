@@ -1,0 +1,9 @@
+
+.primaryButton{
+  border: none;
+ 
+}
+
+.primaryButton:hover{
+  background-color: var(--primary-color);
+}

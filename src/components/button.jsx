@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Button.mudule.css';
+import styles from "./Button.module.css";
 
 
 // El componente Button acepta las props 'children' y 'onClick'
@@ -7,12 +7,13 @@ import styles from './Button.mudule.css';
 function Button ({children, onClick}){
 
     return(
-        <Button
+        <button
             className={styles.primaryButton}
             onClick={onClick}>
+
                 {children}
-                Contáctame
-            </Button>
+                
+            </button>
     );
 
 }
