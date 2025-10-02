@@ -2,12 +2,7 @@ import './App.css';
 import Header from './components/Header.jsx';
 import Button from './components/Button.jsx';
 const portada = '/imagen.png'; 
-import iconoreact from './assets/tech/React-Dark.svg';
-import iconojs from './assets/tech/JavaScript.svg';
-import iconocss from './assets/tech/CSS.svg';
-import iconohtml from './assets/tech/HTML.svg';
-
-
+import { TechIcons } from './assets/tech-icons.js';
 function App() {
 
   return(
@@ -33,17 +28,24 @@ function App() {
         </div>
 
         <section className='tecnologias'> 
-          {/* TODO: Después se puede agregar animación */}
-          <h2 className='tecnologias__titulo'>Tecnologías que domino</h2> 
+            {/* TODO: Después se puede agregar animación */}
+            <h2 className='tecnologias__titulo'>Tecnologías que domino</h2> 
 
-           {/* Aquí van las imágenes de los íconos de las tecnologías */}
-           {/* TODO SEGUIR METIENDO ÍCONOS DE TECNOLOGÍAS */}
-            <article className='tecnologias__article'>
-              <img className='tecnologias__icono' src={iconoreact} alt="icono de react" />
-              <img className='tecnologias__icono' src={iconojs} alt="icono de JS" />
-              <img className='tecnologias__icono' src={iconocss} alt="icono de CSS" />
-              <img className='tecnologias__icono' src={iconohtml} alt="icono de HTML" />
-          </article>
+            {/* Aquí van las imágenes de los íconos de las tecnologías */}
+              <article className='tecnologias__article'>
+                <img className='tecnologias__icono' src={TechIcons.iconoreact} alt="icono de react" />
+                <img className='tecnologias__icono' src={TechIcons.iconojs} alt="icono de JS" />
+                <img className='tecnologias__icono' src={TechIcons.iconocss} alt="icono de CSS" />
+                <img className='tecnologias__icono' src={TechIcons.iconohtml} alt="icono de HTML" />
+                <img className='tecnologias__icono' src={TechIcons.iconboots} alt="icono de Bootstrap" />
+                <img className='tecnologias__icono' src={TechIcons.icongit}alt="icono de Github" />
+                <img className='tecnologias__icono' src={TechIcons.iconpost}alt="icono de PostgreSQL" />
+                <img className='tecnologias__icono' src={TechIcons.iconpy}alt="icono de Python" />   
+
+            </article>
+        </section>
+
+        <section className='proyectos'>
 
         </section>
     
