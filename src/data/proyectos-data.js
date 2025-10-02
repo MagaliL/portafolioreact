@@ -1,14 +1,43 @@
-import project1 from './assets/proyectos-data/Veterinaria.jpg';
+import project1 from '../assets/proyectos-data/Veterinaria.jpg';
+import project2 from '../assets/proyectos-data/clongoogle.jpg';
+import project3 from '../assets/proyectos-data/porfoto.jpg';
 
-// TODO: CONTINUAR LLENANDO ESTA PÁGINA CON LAS IMPORTACIONES DE LAS IMÁGENES Y LA CREACIÓN DE LOS DEMÁS ARREGLOS
+
+
 
 // 2. CREAR Y EXPORTAR EL ARRAY DE DATOS
 export const projectData = [
   {
     id: 1,
-    title: "Project Analyzer",
-    description: "Aplicación web para análisis de datos con React y Python.",
+    title: "Veterinaria",
+    description: "Página web hecha con Django que ayuda a la promoción de servicios y cuenta con una base de datos para la gestión de citas.",
     imageUrl: project1, // Usamos la variable importada
-    tech: ["React", "Python", "SQL"]
+    imageAlt: "Imagen del proyecto",
+    tech: ["Django,", "SQL,", "HTML,", "CSS,", "JS"],
+    link: "https://www.ejemplo.com",
+    github: "https://github.com/usuario/project-analyzer"
+  },,
+
+  {
+    id: 2,
+    title: "Clon de Google",
+    description: "Se realizó el clon de google",
+    imageUrl: project2, // Usamos la variable importada
+    imageAlt: "Imagen del proyecto",
+    tech: ["HTML,","CSS,", "Git"],
+    link: "https://www.ejemplo.com",
+    github: "https://github.com/usuario/project-analyzer"
+  },
+
+  {
+    id: 3,
+    title: "Portafolio Fotográfico",
+    description: "Se realizó el portafolio fotográfico para cliente",
+    imageUrl: project3, // Usamos la variable importada
+    imageAlt: "Imagen del proyecto",
+    tech: ["React,", "HTML,", "CSS,", "SQL"],
+    link: "https://www.ejemplo.com",
+    github: "https://github.com/usuario/project-analyzer"
   }
+  
 ]

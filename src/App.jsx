@@ -3,6 +3,9 @@ import Header from './components/Header.jsx';
 import Button from './components/Button.jsx';
 const portada = '/imagen.png'; 
 import { TechIcons } from './assets/tech-icons.js';
+import { projectData } from './data/proyectos-data.js'; 
+import Tarjetas from './components/Proy_carr.jsx';
+
 function App() {
 
   return(
@@ -44,8 +47,22 @@ function App() {
 
             </article>
         </section>
-
+        
+        <div className='sub-proy'>
+          <h2 className='subtitulo'>Proyectos</h2>
+          </div>
+        
         <section className='proyectos'>
+          
+            {/* Aquí se define project que es un objeto que va a ser iterado por el método map() por el array projectData que tiene todos los datos que necesitamos para las tarjetas. El objeto se le pasa a el componente reutilizable Tarjetas para que pueda utilizar sus propiedades como project.titulo, project.descripcion*/}
+          {projectData.map((project) => (
+
+              <Tarjetas 
+                key={project.id}
+                project={project}
+              />
+
+          ))}
 
         </section>
     
