@@ -1,0 +1,30 @@
+
+
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    padding: 1rem 0 0 0;
+}
+
+.link {
+    color:aqua;
+
+}
+
+.link:hover{
+    color: var(--secondary-color);
+}
+
+.creditos{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 2rem;
+}
