@@ -2,7 +2,7 @@ import React from "react";
 import styles from './Proy_carr.module.css';
 import Button from './Button.jsx';
 
-function Tarjetas({project}){
+function Proy_carr ({project}){
 
      if (!project) return null;
      const { titulo, description, imageUrl, imageAlt, tech } = project;
@@ -39,4 +39,4 @@ function Tarjetas({project}){
     );
 }
 
-export default Tarjetas;
+export default Proy_carr;

@@ -91,6 +91,7 @@ width: 27rem;
 .tecnologias__article{
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 3rem;
 }
 .tecnologias__icono{
@@ -109,9 +110,18 @@ width: 27rem;
 
 .proyectos{
   display: flex;
+  flex-direction: column; 
   justify-content: space-between;
   align-items: center;
   padding: 2rem 2rem 2rem 2rem;
+}
+
+.tarjetas{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem 2rem 2rem;
+
 }
 
 
