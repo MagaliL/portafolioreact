@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './Proy_carr.module.css';
-import Button from './ButtonTemp.jsx.jsx';
+import Button from './Button.jsx';
 
 function Proy_carr ({project}){
 

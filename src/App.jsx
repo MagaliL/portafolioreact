@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header.jsx';
-import Button from './components/ButtonTemp.jsx.jsx';
+import Button from './components/Button.jsx';
 import Footer from './components/Footer.jsx';
 import { TechIcons } from './assets/tech-icons.js';
 import { projectData } from './data/proyectos-data.js'; 
