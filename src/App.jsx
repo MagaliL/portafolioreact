@@ -1,10 +1,10 @@
 import './App.css';
 import Header from './components/Header.jsx';
 import Button from './components/Button.jsx';
-import Footer from './components/Footer_temp.jsx';
+import Footer from './components/Footer.jsx';
 import { TechIcons } from './assets/tech-icons.js';
 import { projectData } from './data/proyectos-data.js'; 
-import Proy_carr from './components/Proy_carr_temp.jsx';
+import Proy_carr from './components/Proy_carr.jsx';
 
 function App() {
 
