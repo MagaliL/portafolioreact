@@ -14,8 +14,8 @@ export const projectData = [
     imageUrl: project1, // Usamos la variable importada
     imageAlt: "Imagen del proyecto",
     tech: ["Django,", "SQL,", "HTML,", "CSS,", "JS"],
-    link: "https://www.ejemplo.com",
-    github: "https://github.com/usuario/project-analyzer"
+    link: "https://vetapex.netlify.app/",
+    github: "https://github.com/MagaliL"
   },,
 
   {
@@ -25,8 +25,8 @@ export const projectData = [
     imageUrl: project2, // Usamos la variable importada
     imageAlt: "Imagen del proyecto",
     tech: ["HTML,","CSS,", "Git"],
-    link: "https://www.ejemplo.com",
-    github: "https://github.com/usuario/project-analyzer"
+    link: "https://clongooglemagalileg.netlify.app/",
+    github: "https://github.com/MagaliL/clonGoogle"
   },
 
   {
