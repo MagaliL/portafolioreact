@@ -5,7 +5,7 @@ import Button from './Button.jsx';
 function Proy_carr ({project}){
 
      if (!project) return null;
-     const { titulo, description, imageUrl, imageAlt, tech } = project;
+     const { titulo, description, imageUrl, imageAlt, tech, projectUrl, githubUrl } = project;
     return(
         <section className={styles.cuerpo}>
 
