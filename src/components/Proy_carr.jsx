@@ -29,8 +29,8 @@ function Proy_carr ({project}){
 
         {/* Implementación de los botones para acciones */}
                 <div className={styles.cardActions}>
-                    <Button className={styles.link} href={link} >Ver Proyecto</Button>
-                    <Button className={styles.github} href={github} >GitHub</Button>
+                    <Button className={styles.link} href={projectUrl} >Ver Proyecto</Button>
+                    <Button className={styles.github} href={githubUrl} >GitHub</Button>
                 </div>
 
         </section>
