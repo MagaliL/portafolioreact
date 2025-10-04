@@ -15,8 +15,8 @@ export const projectData = [
     imageAlt: "Imagen del proyecto",
     tech: ["Django,", "SQL,", "HTML,", "CSS,", "JS"],
     projectUrl: "https://vetapex.netlify.app/",
-    github: "https://github.com/MagaliL"
-  },,
+    githubUrl: "https://github.com/MagaliL"
+  },
 
   {
     id: 2,
@@ -26,7 +26,7 @@ export const projectData = [
     imageAlt: "Imagen del proyecto",
     tech: ["HTML,","CSS,", "Git"],
     projectUrl: "https://clongooglemagalileg.netlify.app/",
-    github: "https://github.com/MagaliL/clonGoogle"
+    githubUrl: "https://github.com/MagaliL/clonGoogle"
   },
 
   {
