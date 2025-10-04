@@ -25,7 +25,7 @@ function App() {
           </section>
 
           <aside className='image'>
-            <img src='/imagen.png' alt="Imagen un círculo luminoso de colores" />
+            <img src='imagen.png' alt="Imagen un círculo luminoso de colores" />
             {/* TODO: Tal vez después se pueda hacer una función de girar  */}
           </aside>
 
