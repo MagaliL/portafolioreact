@@ -1,16 +1,16 @@
 import './App.css';
-// import Header from './components/Header.jsx';
-// import Button from './components/Button.jsx';
-// import Footer from './components/Footer.jsx';
-// import { TechIcons } from './assets/tech-icons.js';
-// import { projectData } from './data/proyectos-data.js'; 
-// import Proy_carr from './components/Proy_carr.jsx';
+import Header from './components/Header.jsx';
+import Button from './components/Button.jsx';
+import Footer from './components/Footer.jsx';
+import { TechIcons } from './assets/tech-icons.js';
+import { projectData } from './data/proyectos-data.js'; 
+import Proy_carr from './components/Proy_carr.jsx';
 
 function App() {
 
   return(
     <>
-      {/* <Header /> */}
+      <Header />
       <main>
 
         <div className='frente'>
@@ -20,7 +20,7 @@ function App() {
               <h2 className='subtitulo'>Software Engenieer</h2>
               <p>Building modern, responsive, and user-centric web experiences. Data analysis to help drive decision-making</p>
             
-              {/* <Button className='boton'>Contact</Button> */}
+              <Button className='boton'>Contact</Button>
 
           </section>
 
@@ -57,7 +57,8 @@ function App() {
             </div>
             
             <div className='tarjetas'>
-                {/* Aquí se define project que es un objeto que va a ser iterado por el método map() por el array projectData que tiene todos los datos que necesitamos para las tarjetas. El objeto se le pasa a el componente reutilizable Tarjetas para que pueda utilizar sus propiedades como project.titulo, project.descripcion
+                {/* Aquí se define project que es un objeto que va a ser iterado por el método map() por el array projectData que tiene todos los datos que necesitamos para las tarjetas. El objeto se le pasa a el componente reutilizable Tarjetas para que pueda utilizar sus propiedades como project.titulo, project.descripcion*/}
+
             {projectData.map((project) => (
 
                 <Proy_carr 
@@ -65,20 +66,16 @@ function App() {
                   project={project}
                 />
 
-            ))} */}
+            ))}
 
             </div>
           
         </section>
-
-       
-       
+    
       </main>
  
+      <Footer />
       
-
-      {/* <Footer />
-       */}
     </>
   );
 }
