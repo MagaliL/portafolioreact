@@ -1,9 +1,16 @@
 
 .primaryButton{
-  border: none;
- 
+  padding: 0.8rem 1.5rem;             /* CRÍTICO: Añade espacio interior */
+    border-radius: 5px;                 /* Bordes redondeados */
+    cursor: pointer;
+    border: none;
+    color: white;                            /* 👈 CRÍTICO: Texto en blanco (anula el azul del enlace) */
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(24, 22, 22, 0.726);
 }
 
 .primaryButton:hover{
   background-color: var(--primary-color);
+  color: white;
 }
