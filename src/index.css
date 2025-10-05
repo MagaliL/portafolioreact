@@ -20,20 +20,22 @@
   --secondary-color: #D66C83;
   --tertiary-color: #C86586;
   --forth-color: #000000;
+  --button-color: rgb(23, 22, 22);
+  
 
 
 
 
 }
 
-a {
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
-}
+} */
 
 body {
   margin: 0;

@@ -1,12 +1,21 @@
 import './App.css';
+import React, { useState } from 'react';
 import Header from './components/Header.jsx';
 import Button from './components/Button.jsx';
 import Footer from './components/Footer.jsx';
+import Popup from './components/Popup'; 
 import { TechIcons } from './assets/tech-icons.js';
 import { projectData } from './data/proyectos-data.js'; 
 import Proy_carr from './components/Proy_carr.jsx';
 
 function App() {
+
+  //DEFINIR EL ESTADO DE VISIBILIDAD
+    const [isPopupOpen, setIsPopupOpen] = useState(false); 
+  // Funciones para manejar la apertura y el cierre del popup
+    const handleOpenPopup = () => setIsPopupOpen(true);
+    const handleClosePopup = () => setIsPopupOpen(false);
+
 
   return(
     <>
@@ -19,8 +28,14 @@ function App() {
               <h1 className='titulo'>HI I'M MAGALI, </h1>
               <h2 className='subtitulo'>Software Engenieer</h2>
               <p>Building modern, responsive, and user-centric web experiences. Data analysis to help drive decision-making</p>
-            
-              <Button className='boton'>Contact</Button>
+
+                <Button 
+                    className='boton' 
+                    onClick={handleOpenPopup} // Llama a la función que cambia el estado a true
+                    >
+                      Contact
+                 </Button>
+              {/* <Button className='boton'>Contact</Button> */}
 
           </section>
 
@@ -33,7 +48,7 @@ function App() {
 
         <section className='tecnologias'> 
             {/* TODO: Después se puede agregar animación */}
-            <h2 className='sec__titulo'>Tecnologías que domino</h2> 
+            <h2 className='sec__titulo'>Tecnologías</h2> 
 
             {/* Aquí van las imágenes de los íconos de las tecnologías */}
               <article className='tecnologias__article'>
@@ -50,7 +65,7 @@ function App() {
         </section>
         
         
-        <section className='proyectos'>
+        <section className='proyectos' id='proyectos-enlace'>
           
             <div className='sub-sec'>
               <h2 className='sec__titulo'>Projects</h2> 
@@ -73,8 +88,28 @@ function App() {
         </section>
     
       </main>
- 
+        
       <Footer />
+            {/* Renderizar el popup */}
+
+      <Popup 
+                isOpen={isPopupOpen} // Pasa el estado (true/false)
+                onClose={handleClosePopup} // Pasa la función para cerrar
+            >
+                {/* Contenido a mostrar dentro del Popup */}
+
+                
+                <h2 className='subtitulo'>Contacto</h2>
+                    <ul>
+                      <li>📧 E-mail: magalizethe@gmail.com</li>
+                      <li>Linkedin: <a target="_blank" href="https://www.linkedin.com/in/magaliespinosa/">Link</a></li>
+                    </ul>
+             
+                
+                
+                {/* Opcional: Botón para cerrar dentro del popup */}
+                <Button onClick={handleClosePopup}>Cerrar</Button>
+            </Popup>
       
     </>
   );

@@ -4,7 +4,7 @@ import styles from './Footer.module.css';
 function Footer(){
     return(
 
-        <section className={styles.contenedor}>
+        <section id="contacto-enlace" className={styles.contenedor}>
             <div className={styles.contacto}>
             <h4>Email: <a href="magalizethe@gmail.com" className={styles.link}>magalizethe@gmail.com</a></h4>
             <h4>Linkedin: <a href="https://www.linkedin.com/in/magaliespinosa/" className={styles.link}>Magali L. Espinosa Guzmán</a></h4>
