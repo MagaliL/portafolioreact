@@ -28,3 +28,33 @@
     flex-direction: column;
     padding: 5rem 2rem;
 }
+
+/* Modificaciones para diseño responsive */
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 2rem 0rem 2rem;
+        
+    }
+
+    .contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0rem;
+    padding: 0 0 0 0;
+}
+
+.creditos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+}

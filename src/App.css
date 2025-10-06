@@ -129,5 +129,36 @@ li{
 }
 
 
+/* Modificaciones para diseño responsive */
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+  .frente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .saludo{
+    padding: 2rem 0 2rem 2rem;
+    
+  }
+
+  .image{
+    display: none;
+  }
+
+  .tecnologias{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 0 2rem 3rem 3rem;
+
+  }
+
+  
+  
+}
 
