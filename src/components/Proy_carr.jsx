@@ -9,9 +9,9 @@ function Proy_carr ({project}){
     return(
         <section className={styles.cuerpo}>
 
-                <div className={styles.titulo}>
-                    <h3>{titulo}</h3>
-                </div> 
+                
+                    <h3 className={styles.titulo}>{titulo}</h3>
+                 
 
                 <div className={styles.imagen}>
                     <img src={imageUrl} alt={imageAlt} className={styles.projectImage} />

@@ -6,8 +6,13 @@
     flex-direction: column;
     align-items: center;
     padding: 0 2rem 2rem 2rem;
-    height: 10%;
-    width: 25%;
+    height: auto;
+    flex-basis: 18.75rem;
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    min-width: 17.5rem;
+    max-width: 90%;
+
 }
 
 .titulo{
@@ -23,7 +28,6 @@
 
 .imagen{
     display: flex;
-    
     width: 10rem;
     height: 10rem;
 
@@ -32,7 +36,6 @@
 
 .projectImage{
     display: flex;
-   
     width: 100%;
     height: 100%;
     
@@ -53,3 +56,33 @@
     align-items: center;
     padding-top: 1.5rem;
 }
+
+
+/* Modificaciones para el diseño responsive
+ */
+
+ @media screen and (min-width: 320px) and (max-width: 767px) {
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+        margin: 1rem auto;
+    }
+
+    
+    
+    .tarjetas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen{
+    display: flex;
+    width: auto;
+    height: 10rem;
+
+}
+
+ }

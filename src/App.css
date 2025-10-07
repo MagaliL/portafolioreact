@@ -1,8 +1,6 @@
 #root {
   
   margin: 0;
-  
- 
 }
 
 .logo {
@@ -118,9 +116,10 @@ width: 27rem;
 
 .tarjetas{
   display: flex; 
-  justify-content: space-between;
+  
   align-items: center;
   padding: 2rem 2rem 2rem 2rem;
+  gap: 2rem;
 
 }
 
@@ -157,6 +156,23 @@ li{
     padding: 0 2rem 3rem 3rem;
 
   }
+
+  .proyectos{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 2rem 2rem 2rem 2rem;
+
+  .tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
 
   
   
