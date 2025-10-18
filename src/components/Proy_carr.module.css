@@ -65,20 +65,20 @@
 
  @media screen and (min-width: 320px) and (max-width: 767px) {
     .cuerpo{
+        background-color: red;
+        border-style: groove;
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 90%;
-        margin: 1rem auto;
+        height: auto;
+        width: auto;
+        flex-basis: 18.75rem;
+        flex-grow: 1; 
+        flex-shrink: 1; 
+        
     }
 
     
-    
-    .tarjetas {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
     .imagen{
     display: flex;
