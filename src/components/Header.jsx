@@ -21,7 +21,6 @@ function Header() {
         <nav className={`${styles.header__nav} ${isMenuOpen ? styles.navOpen : ''}`}>
 
            <ul className={styles.header__nav__list}>
-            {/* <li className={styles.header__nav__list__element}><a href="" className={styles.header__nav__list__element}>About</a></li> */}
            <li className={styles.header__nav__list__element}><a href="#proyectos-enlace" className={styles.header__nav__list__element}  onClick={toggleMenu} >Projects</a></li>
            <li className={styles.header__nav__list__element }> <a href="#contacto-enlace" className={styles.header__nav__list__element}  onClick={toggleMenu} >Contact</a></li>
            </ul>
