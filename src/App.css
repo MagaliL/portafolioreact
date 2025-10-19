@@ -16,7 +16,7 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
+@keyframes rotar {
   from {
     transform: rotate(0deg);
   }
@@ -71,11 +71,15 @@ main{
   display: flex;
   padding: 0 2rem 0 0;
   
+  
 }
 img{
+
 height: 25rem;
 width: 27rem;
 /* border-radius: 50%; */
+
+
 }
 
 .tecnologias{
